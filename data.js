@@ -47,7 +47,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
 
     map:
-    "https://www.google.com/maps?q=41.31,19.79",
+    "https://www.google.com/maps?q=41.3179766,19.7992228",
 
 
     images:[
