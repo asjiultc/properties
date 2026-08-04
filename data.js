@@ -17,6 +17,9 @@ const properties = [
 
         rooms: "2+1",
 
+        map:
+        "https://maps.google.com/?q=41.3275,19.8187",
+
 
         description:
         `
