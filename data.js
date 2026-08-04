@@ -7,7 +7,7 @@ window.properties = [
 
     location:"Ish stacioni fundit i Tiranes se Re, Tirane",
 
-    status:"🟢 Disponibël ne 15/08/2026",
+    status:"🟢 Disponibël nga 15/08/2026",
 
     statusClass:"available",
 
