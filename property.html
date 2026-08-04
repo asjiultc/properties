@@ -3,12 +3,12 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Property Details</title>
+<title>Property Details</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -18,11 +18,11 @@
 
 <header class="header">
 
-    <h1>Property Details</h1>
+<h1>Property Details</h1>
 
-    <a href="index.html" class="back-button">
-        ← Kthehu te pronat
-    </a>
+<a href="index.html" class="back-button">
+← Kthehu te pronat
+</a>
 
 </header>
 
@@ -30,13 +30,11 @@
 
 <main id="property-detail" class="property-detail">
 
-    <!-- Detajet ngarkohen automatikisht -->
-
 </main>
 
 
 
-<script src="data.js"></script>
+<script src="./data.js"></script>
 
 
 <script>
@@ -47,8 +45,7 @@ const params = new URLSearchParams(window.location.search);
 const propertyID = params.get("id");
 
 
-
-const property = properties.find(
+const property = window.properties.find(
     item => item.id === propertyID
 );
 
@@ -66,16 +63,18 @@ container.innerHTML = `
 
 <div class="detail-header">
 
+<h2>
+${property.title}
+</h2>
 
-    <h2>${property.title}</h2>
 
-
-    <span class="status ${property.statusClass}">
-        ${property.status}
-    </span>
+<span class="status ${property.statusClass}">
+${property.status}
+</span>
 
 
 </div>
+
 
 
 
@@ -83,113 +82,98 @@ container.innerHTML = `
 
 
 <p>
-📍 <strong>Lokacioni:</strong>
+📍 <strong>Lokacioni:</strong><br>
 ${property.location}
 </p>
 
 
+
 <p>
-💶 <strong>Çmimi:</strong>
+💶 <strong>Çmimi:</strong><br>
 ${property.price}
 </p>
 
 
+
 <p>
-📐 <strong>Sipërfaqja:</strong>
+📐 <strong>Sipërfaqja:</strong><br>
 ${property.area}
 </p>
 
 
-${property.rooms ?
-`
+
+${property.rooms ? `
+
 <p>
-🛏 <strong>Dhomat:</strong>
+🛏 <strong>Dhomat:</strong><br>
 ${property.rooms}
 </p>
-`
-:
-""}
+
+` : ""}
 
 
-${property.balcony ?
-`
+
+${property.balcony ? `
+
 <p>
-🌅 <strong>Balkone:</strong>
+🌅 <strong>Balkone:</strong><br>
 ${property.balcony}
 </p>
-`
-:
-""}
+
+` : ""}
 
 
-${property.bathrooms ?
-`
+
+${property.bathrooms ? `
+
 <p>
-🚿 <strong>Banjo:</strong>
+🚿 <strong>Banjo:</strong><br>
 ${property.bathrooms}
 </p>
-`
-:
-""}
+
+` : ""}
 
 
-${property.floor ?
-`
+
+${property.floor ? `
+
 <p>
-🏢 <strong>Kati:</strong>
+🏢 <strong>Kati:</strong><br>
 ${property.floor}
 </p>
-`
-:
-""}
+
+` : ""}
 
 
-${property.elevator ?
-`
+
+${property.elevator ? `
+
 <p>
-🛗 <strong>Ashensor:</strong>
+🛗 <strong>Ashensor:</strong><br>
 ${property.elevator}
 </p>
-`
-:
-""}
+
+` : ""}
 
 
-${property.parking ?
-`
+
+${property.parking ? `
+
 <p>
-🚗 <strong>Parkim:</strong>
+🚗 <strong>Parkim:</strong><br>
 ${property.parking}
 </p>
-`
-:
-""}
 
+` : ""}
 
-
-${property.map ?
-`
-<br>
-
-<a 
-href="${property.map}" 
-target="_blank"
-class="button">
-
-📍 Hap në Google Maps
-
-</a>
-
-`
-:
-""}
 
 
 </div>
 
 
-<h3>Përshkrimi</h3>
 
+
+<h3>Përshkrimi</h3>
 
 <p class="description">
 
@@ -201,25 +185,16 @@ ${property.description}
 
 
 
-<h3>Galeria e Fotove</h3>
-
+<h3>Galeria</h3>
 
 
 <div class="gallery">
 
+${property.images.map(image => `
 
-${property.images.map(image =>
+<img src="${image}" alt="${property.title}">
 
-`
-<img 
-src="${image}" 
-alt="${property.title}"
->
-`
-
-).join("")}
-
-
+`).join("")}
 
 </div>
 
@@ -227,51 +202,71 @@ alt="${property.title}"
 
 
 
-${property.video ?
-
-
-`
+${property.video ? `
 
 <h3>Video</h3>
 
-
-<video 
-controls 
-class="video">
+<video class="video" controls>
 
 <source src="${property.video}" type="video/mp4">
 
-Shfletuesi nuk suporton video.
-
 </video>
 
-
-`
-
-:
-
-""
-
-
-
-}
+` : ""}
 
 
 
 
-<div class="download-section">
+
+${property.map ? `
+
+<h3>Lokacioni</h3>
 
 
 <a 
-href="${property.download}" 
+href="${property.map}"
+target="_blank"
+class="button">
+
+📍 Hap në Google Maps
+
+</a>
+
+
+<br><br>
+
+
+<iframe
+
+src="${property.map}&output=embed"
+
+width="100%"
+
+height="350"
+
+style="border:0;border-radius:12px"
+
+loading="lazy">
+
+</iframe>
+
+
+` : ""}
+
+
+
+
+
+<br><br>
+
+
+<a 
+href="${property.download}"
 class="download-button">
 
 📥 Shkarko Fotot / Materialet
 
 </a>
-
-
-</div>
 
 
 
@@ -299,7 +294,6 @@ Kthehu
 
 
 </script>
-
 
 
 </body>
