@@ -86,16 +86,7 @@ container.innerHTML = `
 📍 <strong>Lokacioni:</strong>
 ${property.location}
 </p>
-${property.map ? 
-`
-<p>
-📍 <a href="${property.map}" target="_blank" class="button">
-Hap në Google Maps
-</a>
-</p>
-`
-:
-""}
+
 
 <p>
 💶 <strong>Çmimi:</strong>
@@ -123,7 +114,16 @@ ${property.rooms}
 
 </div>
 
-
+${property.map ? 
+`
+<p>
+📍 <a href="${property.map}" target="_blank" class="button">
+Hap në Google Maps
+</a>
+</p>
+`
+:
+""}
 
 
 <h3>Përshkrimi</h3>
