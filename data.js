@@ -60,7 +60,6 @@ window.properties = [
 
 
 {
-
     id:"property-002",
 
     title:"Apartament 1+1",
@@ -87,10 +86,10 @@ window.properties = [
 
     parking:"Jo",
 
-
     description:
     `
     Apartament 1+1 në zonë të zhvilluar.
+    Afër shërbimeve kryesore dhe transportit publik.
     `,
 
 
@@ -102,12 +101,15 @@ window.properties = [
 
         "assets/properties/property-002/01.jpg",
 
-        "assets/properties/property-002/02.jpg"
+        "assets/properties/property-002/02.jpg",
+
+        "assets/properties/property-002/03.jpg"
 
     ],
 
 
-    video:"",
+    video:
+    "assets/properties/property-002/video.mp4",
 
 
     download:
@@ -116,12 +118,10 @@ window.properties = [
 },
 
 
-
 {
-
     id:"property-003",
 
-    title:"Vilë",
+    title:"Vilë Moderne",
 
     location:"Farkë, Tiranë",
 
@@ -145,10 +145,10 @@ window.properties = [
 
     parking:"Po",
 
-
     description:
     `
-    Vilë moderne me oborr dhe parkim.
+    Vilë moderne me oborr privat,
+    parkim dhe organizim shumë të mirë të ambienteve.
     `,
 
 
@@ -160,12 +160,15 @@ window.properties = [
 
         "assets/properties/property-003/01.jpg",
 
-        "assets/properties/property-003/02.jpg"
+        "assets/properties/property-003/02.jpg",
+
+        "assets/properties/property-003/03.jpg"
 
     ],
 
 
-    video:"",
+    video:
+    "assets/properties/property-003/video.mp4",
 
 
     download:
