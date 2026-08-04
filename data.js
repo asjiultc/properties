@@ -44,7 +44,13 @@ window.properties = [
 
         "assets/properties/property-001/02.jpg",
 
-        "assets/properties/property-001/03.jpg"
+        "assets/properties/property-001/03.jpg",
+        "assets/properties/property-001/04.jpg",
+        "assets/properties/property-001/05.jpg",
+        "assets/properties/property-001/06.jpg",
+        "assets/properties/property-001/07.jpg",
+        "assets/properties/property-001/08.jpg",
+        "assets/properties/property-001/09.jpg"
 
     ],
 
