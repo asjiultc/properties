@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Property Catalog</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Property Catalog</h1>
+    <p>Katalog pronash</p>
+</header>
+
+
+<main>
+
+    <section id="properties" class="property-grid">
+        <!-- Pronat ngarkohen automatikisht nga data.js -->
+    </section>
+
+</main>
+
+
+<script src="data.js"></script>
+
+
+<script>
+
+const container = document.getElementById("properties");
+
+
+properties.forEach(property => {
+
+    const card = document.createElement("div");
+
+    card.className = "property-card";
+
+
+    card.innerHTML = `
+
+        <img 
+        src="${property.images[0]}" 
+        alt="${property.title}"
+        class="property-image"
+        >
+
+
+        <div class="property-content">
+
+            <h2>${property.title}</h2>
+
+            <p class="location">
+                📍 ${property.location}
+            </p>
+
+
+            <span class="status ${property.statusClass}">
+                ${property.status}
+            </span>
+
+
+            <p>
+                💶 ${property.price}
+            </p>
+
+
+            <p>
+                📐 ${property.area}
+            </p>
+
+
+            <a 
+            class="button"
+            href="property.html?id=${property.id}">
+                Shiko Detajet
+            </a>
+
+
+        </div>
+
+    `;
+
+
+    container.appendChild(card);
+
+});
+
+
+</script>
+
+
+</body>
+</html>
