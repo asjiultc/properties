@@ -15,7 +15,7 @@ window.properties = [
 
     area:"100 m²",
 
-    rooms:"2+1+",
+    rooms:"2",
 
     bathrooms:"2",
 
