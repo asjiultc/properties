@@ -100,7 +100,7 @@ ${property.area}
 </p>
 
 
-${property.rooms ? 
+${property.rooms ?
 `
 <p>
 🛏 <strong>Dhomat:</strong>
@@ -111,19 +111,81 @@ ${property.rooms}
 ""}
 
 
-
-</div>
-
-${property.map ? 
+${property.balcony ?
 `
 <p>
-📍 <a href="${property.map}" target="_blank" class="button">
-Hap në Google Maps
-</a>
+🌅 <strong>Balkone:</strong>
+${property.balcony}
 </p>
 `
 :
 ""}
+
+
+${property.bathrooms ?
+`
+<p>
+🚿 <strong>Banjo:</strong>
+${property.bathrooms}
+</p>
+`
+:
+""}
+
+
+${property.floor ?
+`
+<p>
+🏢 <strong>Kati:</strong>
+${property.floor}
+</p>
+`
+:
+""}
+
+
+${property.elevator ?
+`
+<p>
+🛗 <strong>Ashensor:</strong>
+${property.elevator}
+</p>
+`
+:
+""}
+
+
+${property.parking ?
+`
+<p>
+🚗 <strong>Parkim:</strong>
+${property.parking}
+</p>
+`
+:
+""}
+
+
+
+${property.map ?
+`
+<br>
+
+<a 
+href="${property.map}" 
+target="_blank"
+class="button">
+
+📍 Hap në Google Maps
+
+</a>
+
+`
+:
+""}
+
+
+</div>
 
 
 <h3>Përshkrimi</h3>
