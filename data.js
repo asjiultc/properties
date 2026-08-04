@@ -86,17 +86,21 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 {
     id:"property-002",
 
-    title:"Apartament 1+1",
+    title:"Apartament 1+1 me Qera",
 
-    location:"Astir, Tiranë",
+    location:"Astir, Kompleksi Fratari Tiranë",
 
-    status:"🟡 Rezervuar",
+    //status:"🟡 Rezervuar",
 
-    statusClass:"reserved",
+    //statusClass:"reserved",
 
-    price:"120.000 €",
+    status:"🟢 Disponibël",
 
-    area:"75 m²",
+    statusClass:"available",
+
+    price:"40,000Leke/Muaj",
+
+    area:"65 m²",
 
     rooms:"1+1",
 
@@ -104,7 +108,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     balcony:"1",
 
-    floor:"4",
+    floor:"7",
 
     elevator:"Po",
 
@@ -112,13 +116,23 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     description:
     `
-    Apartament 1+1 në zonë të zhvilluar.
-    Afër shërbimeve kryesore dhe transportit publik.
+    Jepet me Qera 1+1+ Ballkon ,Apartament kati 7 Banimi, pallat me ashensor, Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne sallon, TV.
+
+Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)
+Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp
+
+Kushte paraprake: 
+Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
+Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
+Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
+Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+Kafshet shtepiake nuk lejohen(qen, mace)
+
     `,
 
 
     map:
-    "https://www.google.com/maps?q=41.3200,19.7800",
+    "https://www.google.com/maps?q=41.334381, 19.772975",
 
 
     images:[
@@ -128,6 +142,18 @@ Kafshet shtepiake nuk lejohen(qen, mace)
         "assets/properties/property-002/02.jpg",
 
         "assets/properties/property-002/03.jpg"
+
+        "assets/properties/property-002/04.jpg"
+
+        "assets/properties/property-002/05.jpg"
+
+        "assets/properties/property-002/06.jpg"
+
+        "assets/properties/property-002/07.jpg"
+
+        "assets/properties/property-002/08.jpg"
+
+        "assets/properties/property-002/09.jpg"
 
     ],
 
