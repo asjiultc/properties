@@ -132,7 +132,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
 
     map:
-    "https://www.google.com/maps?q=41.334381, 19.772975",
+    "https://www.google.com/maps?q=41.334381,19.772975",
 
 
     images:[
@@ -181,7 +181,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     price:"60,000",
 
-    area:"62²",
+    area:"62m²",
 
     rooms:"2",
 
