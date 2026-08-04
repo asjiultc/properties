@@ -3,39 +3,50 @@ window.properties = [
 {
     id:"property-001",
 
-    title:"Apartament 2+1",
+    title:"Apartament 2+1+2+Ballkon me QERA",
 
-    location:"Komuna e Parisit, Tiranë",
+    location:"Ish stacioni fundit i Tiranes se Re",
 
     status:"🟢 Disponibël",
 
     statusClass:"available",
 
-    price:"185.000 €",
+    price:"55,000Leke/Muaj",
 
-    area:"120 m²",
+    area:"100 m²",
 
-    rooms:"2+1",
+    rooms:"2+1+",
 
     bathrooms:"2",
 
     balcony:"1",
 
-    floor:"5",
+    floor:"7",
 
     elevator:"Po",
 
-    parking:"Po",
+    parking:"Jo",
 
     description:
     `
-    Apartament modern me pozicion shumë të mirë.
-    Afër shkollave, shërbimeve dhe transportit publik.
+    Jepet me Qera 2+1+2 banjo, + Ballkon i vogel ,Apartament kati 7 Banimi, rruga per Selite prane Ish stacionit te fundit te Tiranes se re.
+Pallat me Ashensor, Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne cdo dhome.
+
+Preferohen Familjare, kapaciteti maksimal 4 Persona.
+Vendodhja fiks https://maps.app.goo.gl/oc7ApdifEgqJ26dn8
+
+Telefonata ne nr e telefonit, Mesazhe ne SMS ose Whatsapp
+Per agjensite lutemi vetem SMS
+
+Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+Kafshet shtepiake nuk lejohen(qen, mace)
+
+
     `,
 
 
     map:
-    "https://www.google.com/maps?q=41.3275,19.8187",
+    "https://www.google.com/maps?q=41.3179766,19.7992228",
 
 
     images:[
