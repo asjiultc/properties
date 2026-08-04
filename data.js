@@ -1,180 +1,176 @@
-const properties = [
+window.properties = [
 
-    {
-        id: "property-001",
+{
+    id:"property-001",
 
-        title: "Apartament 2+1",
+    title:"Apartament 2+1",
 
-        location: "Tiranë",
+    location:"Komuna e Parisit, Tiranë",
 
-        status: "🟢 Disponibël",
+    status:"🟢 Disponibël",
 
-        statusClass: "available",
+    statusClass:"available",
 
-        price: "Vendos çmimin",
+    price:"185.000 €",
 
-        area: "120 m²",
+    area:"120 m²",
 
-        rooms: "2+1",
+    rooms:"2+1",
 
-        map:
-        "https://maps.google.com/?q=41.3275,19.8187",
+    bathrooms:"2",
 
+    balcony:"1",
 
-        description:
-        `
-        Vendos përshkrimin e pronës këtu.
+    floor:"5",
 
-        Shembull:
-        Apartament modern me pozicion shumë të mirë,
-        afër shërbimeve kryesore.
-        `,
+    elevator:"Po",
 
+    parking:"Po",
 
-        images: [
+    description:
+    `
+    Apartament modern me pozicion shumë të mirë.
+    Afër shkollave, shërbimeve dhe transportit publik.
+    `,
 
-            "assets/properties/property-001/01.jpg",
 
-            "assets/properties/property-001/02.jpg",
+    map:
+    "https://www.google.com/maps?q=41.3275,19.8187",
 
-            "assets/properties/property-001/03.jpg"
 
-        ],
+    images:[
 
+        "assets/properties/property-001/01.jpg",
 
-        video:
+        "assets/properties/property-001/02.jpg",
 
-        "assets/properties/property-001/video.mp4",
+        "assets/properties/property-001/03.jpg"
 
+    ],
 
-        download:
 
-        "downloads/property-001.zip"
+    video:"",
 
-    },
 
+    download:
+    "downloads/property-001.zip"
 
+},
 
 
 
-    {
+{
 
-        id: "property-002",
+    id:"property-002",
 
+    title:"Apartament 1+1",
 
-        title: "Apartament 1+1",
+    location:"Astir, Tiranë",
 
+    status:"🟡 Rezervuar",
 
-        location: "Tiranë",
+    statusClass:"reserved",
 
+    price:"120.000 €",
 
-        status: "🟡 Rezervuar",
+    area:"75 m²",
 
+    rooms:"1+1",
 
-        statusClass: "reserved",
+    bathrooms:"1",
 
+    balcony:"1",
 
-        price: "Vendos çmimin",
+    floor:"4",
 
+    elevator:"Po",
 
-        area: "80 m²",
+    parking:"Jo",
 
 
-        rooms: "1+1",
+    description:
+    `
+    Apartament 1+1 në zonë të zhvilluar.
+    `,
 
-        map:
-        "https://maps.google.com/?q=41.3275,19.8187",
 
-        description:
+    map:
+    "https://www.google.com/maps?q=41.3200,19.7800",
 
-        `
-        Përshkrimi i pronës së dytë.
-        `,
 
+    images:[
 
+        "assets/properties/property-002/01.jpg",
 
-        images: [
+        "assets/properties/property-002/02.jpg"
 
-            "assets/properties/property-002/01.jpg",
+    ],
 
-            "assets/properties/property-002/02.jpg"
 
-        ],
+    video:"",
 
 
+    download:
+    "downloads/property-002.zip"
 
-        video: "",
+},
 
 
 
-        download:
+{
 
-        "downloads/property-002.zip"
+    id:"property-003",
 
-    },
+    title:"Vilë",
 
+    location:"Farkë, Tiranë",
 
+    status:"🟠 Lirohet së shpejti",
 
+    statusClass:"soon",
 
+    price:"450.000 €",
 
+    area:"250 m²",
 
+    rooms:"4+1",
 
-    {
+    bathrooms:"3",
 
-        id: "property-003",
+    balcony:"2",
 
+    floor:"2",
 
-        title: "Vilë",
+    elevator:"Jo",
 
+    parking:"Po",
 
-        location: "Tiranë",
 
+    description:
+    `
+    Vilë moderne me oborr dhe parkim.
+    `,
 
-        status: "🟠 Lirohet së shpejti",
 
+    map:
+    "https://www.google.com/maps?q=41.3000,19.8500",
 
-        statusClass: "soon",
 
+    images:[
 
-        price: "Vendos çmimin",
+        "assets/properties/property-003/01.jpg",
 
+        "assets/properties/property-003/02.jpg"
 
-        area: "250 m²",
+    ],
 
 
-        rooms: "4+1",
+    video:"",
 
-        map:
-        "https://maps.google.com/?q=41.3275,19.8187",
 
-        description:
+    download:
+    "downloads/property-003.zip"
 
-        `
-        Përshkrimi i vilës.
-        `,
-
-
-
-        images: [
-
-            "assets/properties/property-003/01.jpg",
-
-            "assets/properties/property-003/02.jpg"
-
-        ],
-
-
-
-        video: "",
-
-
-
-        download:
-
-        "downloads/property-003.zip"
-
-    }
-
-
+}
 
 ];
