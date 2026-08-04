@@ -5,7 +5,7 @@ window.properties = [
 
     title:"Apartament 2+1+2+Ballkon me QERA",
 
-    location:"Ish stacioni fundit i Tiranes se Re",
+    location:"Ish stacioni fundit i Tiranes se Re, Tirane",
 
     status:"🟢 Disponibël",
 
@@ -29,17 +29,18 @@ window.properties = [
 
     description:
     `
-    Jepet me Qera 2+1+2 banjo, + Ballkon i vogel ,Apartament kati 7 Banimi, rruga per Selite prane Ish stacionit te fundit te Tiranes se re.
-Pallat me Ashensor, Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne cdo dhome.
+    Jepet me Qera 2+1+2 banjo, + Ballkon i vogel ,Apartament kati 7 Banimi, pallat me ashensor(Shenim: 1 Kat ngjitet me kembe), Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne cdo dhome.
 
 Preferohen Familjare, kapaciteti maksimal 4 Persona.
-Vendodhja fiks https://maps.app.goo.gl/oc7ApdifEgqJ26dn8
+Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp
 
-Telefonata ne nr e telefonit, Mesazhe ne SMS ose Whatsapp
-Per agjensite lutemi vetem SMS
-
+Kushte paraprake: 
+Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
+Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
+Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
 Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
 Kafshet shtepiake nuk lejohen(qen, mace)
+
 
 
     `,
