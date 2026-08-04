@@ -179,7 +179,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     statusClass:"soon",
 
-    price:"60,000",
+    price:"60,000Leke/Muaj",
 
     area:"62m²",
 
