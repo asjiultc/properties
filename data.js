@@ -38,7 +38,7 @@ Kushte paraprake:
 Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
 Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
 Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
-Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme
 Kafshet shtepiake nuk lejohen(qen, mace)
 
 
@@ -125,7 +125,7 @@ Kushte paraprake:
 Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
 Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
 Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
-Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme
 Kafshet shtepiake nuk lejohen(qen, mace)
 
     `,
@@ -207,7 +207,7 @@ Kushte paraprake:
 Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
 Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
 Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
-Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme
 Kafshet shtepiake nuk lejohen(qen, mace)
     `,
 
