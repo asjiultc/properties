@@ -197,7 +197,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     description:
     `
-    Jepet me Qera 1+1+ Ballkon ,Apartament kati 6 Banimi, pallat me 2 ashensor, Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.
+    Jepet me Qera 1+1+ Ballkon ,Apartament kati 6 Banimi, pallat me 2 ashensor i ri, afer afer bulevardit (~20M) por ne rresht te dyte ofron goxha qetesi, akses dhe dalje te shumta praktike. Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.
     Kend me hapje dhe kontinetore per magazinim. Taboline buke me 4 karrige e hapshme deri ne 2M. Kuzhine e kompletuar me cdo gje (Lavastovilje, Mikrovale etj..) krevati dhomes gjumit me kontinetor per magazinim extra, Krevat per femije 90x120 me kontinetor(opsional)
     Pallati ka 2 kate parkim nen toke, gjendjet parkim me abomin mujor nese keni automjet
 Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)
@@ -213,7 +213,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
 
     map:
-    "https://www.google.com/maps?q=41.3000,19.8500",
+    "https://www.google.com/maps?q=41.3319868,19.8366679",
 
 
     images:[
