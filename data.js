@@ -141,17 +141,17 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
         "assets/properties/property-002/02.jpg",
 
-        "assets/properties/property-002/03.jpg"
+        "assets/properties/property-002/03.jpg",
 
-        "assets/properties/property-002/04.jpg"
+        "assets/properties/property-002/04.jpg",
 
-        "assets/properties/property-002/05.jpg"
+        "assets/properties/property-002/05.jpg",
 
-        "assets/properties/property-002/06.jpg"
+        "assets/properties/property-002/06.jpg",
 
-        "assets/properties/property-002/07.jpg"
+        "assets/properties/property-002/07.jpg",
 
-        "assets/properties/property-002/08.jpg"
+        "assets/properties/property-002/08.jpg",
 
         "assets/properties/property-002/09.jpg"
 
