@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Property Details</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <h1>Property Details</h1>
+
+    <a href="index.html" class="back-button">
+        ← Kthehu te pronat
+    </a>
+
+</header>
+
+
+
+<main id="property-detail" class="property-detail">
+
+    <!-- Detajet ngarkohen automatikisht -->
+
+</main>
+
+
+
+<script src="data.js"></script>
+
+
+<script>
+
+
+const params = new URLSearchParams(window.location.search);
+
+const propertyID = params.get("id");
+
+
+
+const property = properties.find(
+    item => item.id === propertyID
+);
+
+
+
+const container = document.getElementById("property-detail");
+
+
+
+if(property){
+
+
+container.innerHTML = `
+
+
+<div class="detail-header">
+
+
+    <h2>${property.title}</h2>
+
+
+    <span class="status ${property.statusClass}">
+        ${property.status}
+    </span>
+
+
+</div>
+
+
+
+<div class="info-box">
+
+
+<p>
+📍 <strong>Lokacioni:</strong>
+${property.location}
+</p>
+
+
+<p>
+💶 <strong>Çmimi:</strong>
+${property.price}
+</p>
+
+
+<p>
+📐 <strong>Sipërfaqja:</strong>
+${property.area}
+</p>
+
+
+${property.rooms ? 
+`
+<p>
+🛏 <strong>Dhomat:</strong>
+${property.rooms}
+</p>
+`
+:
+""}
+
+
+
+</div>
+
+
+
+
+<h3>Përshkrimi</h3>
+
+
+<p class="description">
+
+${property.description}
+
+</p>
+
+
+
+
+
+<h3>Galeria e Fotove</h3>
+
+
+
+<div class="gallery">
+
+
+${property.images.map(image =>
+
+`
+<img 
+src="${image}" 
+alt="${property.title}"
+>
+`
+
+).join("")}
+
+
+
+</div>
+
+
+
+
+
+${property.video ?
+
+
+`
+
+<h3>Video</h3>
+
+
+<video 
+controls 
+class="video">
+
+<source src="${property.video}" type="video/mp4">
+
+Shfletuesi nuk suporton video.
+
+</video>
+
+
+`
+
+:
+
+""
+
+
+
+}
+
+
+
+
+<div class="download-section">
+
+
+<a 
+href="${property.download}" 
+class="download-button">
+
+📥 Shkarko Fotot / Materialet
+
+</a>
+
+
+</div>
+
+
+
+`;
+
+
+
+}
+
+else{
+
+
+container.innerHTML = `
+
+<h2>Prona nuk u gjet.</h2>
+
+<a href="index.html">
+Kthehu
+</a>
+
+`;
+
+}
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
