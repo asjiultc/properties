@@ -171,34 +171,44 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 {
     id:"property-003",
 
-    title:"Vilë Moderne",
+    title:"Apartament 1+1 me Qera",
 
-    location:"Farkë, Tiranë",
+    location:"Brryli, perball Maternietit te Ri, Tiranë",
 
     status:"🟠 Lirohet së shpejti",
 
     statusClass:"soon",
 
-    price:"450.000 €",
+    price:"60,000",
 
-    area:"250 m²",
+    area:"62²",
 
-    rooms:"4+1",
+    rooms:"2",
 
-    bathrooms:"3",
+    bathrooms:"1",
 
     balcony:"2",
 
-    floor:"2",
+    floor:"6",
 
-    elevator:"Jo",
+    elevator:"Po",
 
-    parking:"Po",
+    parking:"Opsionale",
 
     description:
     `
-    Vilë moderne me oborr privat,
-    parkim dhe organizim shumë të mirë të ambienteve.
+    Jepet me Qera 1+1+ Ballkon ,Apartament kati 6 Banimi, pallat me 2 ashensor, Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.
+    Kend me hapje dhe kontinetore per magazinim. Taboline buke me 4 karrige e hapshme deri ne 2M. Kuzhine e kompletuar me cdo gje (Lavastovilje, Mikrovale etj..) krevati dhomes gjumit me kontinetor per magazinim extra, Krevat per femije 90x120 me kontinetor(opsional)
+    Pallati ka 2 kate parkim nen toke, gjendjet parkim me abomin mujor nese keni automjet
+Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)
+Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp
+
+Kushte paraprake: 
+Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
+Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
+Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
+Duani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+Kafshet shtepiake nuk lejohen(qen, mace)
     `,
 
 
