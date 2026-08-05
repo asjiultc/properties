@@ -29,16 +29,17 @@ window.properties = [
 
     description:
     `
-    Jepet me Qera 2+1+2 banjo, + Ballkon i vogel ,Apartament kati 7 Banimi, pallat me ashensor(Shenim: 1 Kat ngjitet me kembe), Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne cdo dhome.
+    Jepet me Qera 2+1+2 banjo, + Ballkon i vogel ,Apartament kati 7 Banimi, pallat me ashensor(Shenim: 1 Kat ngjitet me kembe), <br>
+    Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne cdo dhome.<br>
 
-Preferohen Familjare, kapaciteti maksimal 4 Persona.
-Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp
+Preferohen Familjare, kapaciteti maksimal 4 Persona.<br> 
+Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp<br> 
 
-Kushte paraprake: 
-Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
-Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
-Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
-Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+<strong>Kushte paraprake:</strong> 
+Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.<br>
+Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.<br>
+Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.<br>
+Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme<br>
 Kafshet shtepiake nuk lejohen(qen, mace)
 
 
@@ -116,18 +117,18 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     description:
     `
-    Jepet me Qera 1+1+ Ballkon ,Apartament kati 7 Banimi, pallat me ashensor, Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne sallon, TV.
+    Jepet me Qera 1+1+ Ballkon ,Apartament kati 7 Banimi, pallat me ashensor<br> 
+    Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne sallon, TV dhe pajiset e guzhines<br> 
 
-Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)
-Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp
+Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)<br> 
+Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp<br> 
 
-Kushte paraprake: 
-Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
-Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
-Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
-Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+<strong>Kushte paraprake:</strong> 
+Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.<br>
+Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.<br>
+Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.<br>
+Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme<br>
 Kafshet shtepiake nuk lejohen(qen, mace)
-
     `,
 
 
@@ -200,17 +201,20 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     description:
     `
-    Jepet me Qera 1+1+ Ballkon ,Apartament kati 6 Banimi, pallat me 2 ashensor i ri, afer afer bulevardit (~20M) por ne rresht te dyte ofron goxha qetesi, akses dhe dalje te shumta praktike. Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.
-    Kend me hapje dhe kontinetore per magazinim. Taboline buke me 4 karrige e hapshme deri ne 2M. Kuzhine e kompletuar me cdo gje (Lavastovilje, Mikrovale etj..) krevati dhomes gjumit me kontinetor per magazinim extra, Krevat per femije 90x120 me kontinetor(opsional)
-    Pallati ka 2 kate parkim nen toke, gjendjet parkim me abomin mujor nese keni automjet
-Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)
-Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp
+    Jepet me Qera 1+1+ Ballkon ,Apartament kati 6 Banimi, pallat me 2 ashensor i ri, afer afer bulevardit (~20M) por ne rresht te dyte ofron goxha qetesi, akses dhe dalje te shumta praktike. <br> 
+    Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.<br> 
+    Kend me hapje dhe kontinetore per magazinim. <br> Tavoline buke me 4 karrige e hapshme deri ne 2M.<br> 
+    Kuzhine e kompletuar me cdo gje (Lavastovilje, Mikrovale etj..)<br> 
+    krevati dhomes gjumit me kontinetor per magazinim extra, Krevat per femije 90x120 me kontinetor(opsional)<br> 
+    Pallati ka 2 kate parkim nen toke, gjendjet parkim me abomin mujor nese keni automjet<br> <br> 
+Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)<br> 
+Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp<br> 
 
-Kushte paraprake: 
-Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.
-Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.
-Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.
-Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme
+<strong>Kushte paraprake:</strong> 
+Kerkohen 3 muaj qera paradhenie(muaji pare, muaji fundit dhe 1 muaj garanci). garania kthehet ne fund duke llogaritur detyrimet.<br>
+Afati qendrimit 1VIt, me pas kushtet dhe tarifat rishikohen me konsensus.<br>
+Apartamenti dorezohet ne te njetat kushte qe meret diten e pare.<br>
+Duhani eshte Kategorikisht i ndaluar ne ambientet e brendshme<br>
 Kafshet shtepiake nuk lejohen(qen, mace)
     `,
 
