@@ -175,9 +175,12 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     location:"Brryli, perball Maternietit te Ri, Tiranë",
 
-    status:"🟠 Lirohet së shpejti",
+    //status:"🟠 Lirohet së shpejti",
 
-    statusClass:"soon",
+    //statusClass:"soon",
+    status:"🟢 Disponibël nga 15/08/2026",
+
+    statusClass:"available",
 
     price:"60,000Leke/Muaj",
 
