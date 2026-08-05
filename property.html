@@ -34,6 +34,19 @@
 
 
 
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox" class="lightbox" onclick="closeImage()">
+
+    <img id="lightbox-image">
+
+</div>
+
+
+
+
+
 <script src="./data.js"></script>
 
 
@@ -78,6 +91,7 @@ ${property.status}
 
 
 
+
 <div class="info-box">
 
 
@@ -113,6 +127,7 @@ ${property.rooms}
 
 
 
+
 ${property.balcony ? `
 
 <p>
@@ -121,6 +136,7 @@ ${property.balcony}
 </p>
 
 ` : ""}
+
 
 
 
@@ -135,6 +151,7 @@ ${property.bathrooms}
 
 
 
+
 ${property.floor ? `
 
 <p>
@@ -143,6 +160,7 @@ ${property.floor}
 </p>
 
 ` : ""}
+
 
 
 
@@ -157,6 +175,7 @@ ${property.elevator}
 
 
 
+
 ${property.parking ? `
 
 <p>
@@ -168,12 +187,25 @@ ${property.parking}
 
 
 
+${property.availableDate ? `
+
+<p>
+📅 <strong>Disponueshme:</strong><br>
+${property.availableDate}
+</p>
+
+` : ""}
+
+
+
 </div>
 
 
 
 
+
 <h3>Përshkrimi</h3>
+
 
 <p class="description">
 
@@ -185,20 +217,32 @@ ${property.description}
 
 
 
+
 <h3>Galeria</h3>
 
 
 <div class="gallery">
 
+
 ${property.images.map(image => `
 
+
 <img
+
 src="${image}"
+
 alt="${property.title}"
+
 class="gallery-image"
-onclick="openImage('${image}')">
+
+onclick="openImage('${image}')"
+
+
+>
+
 
 `).join("")}
+
 
 </div>
 
@@ -206,15 +250,22 @@ onclick="openImage('${image}')">
 
 
 
+
 ${property.video ? `
+
 
 <h3>Video</h3>
 
+
 <video class="video" controls>
+
 
 <source src="${property.video}" type="video/mp4">
 
+
 </video>
+
+
 
 ` : ""}
 
@@ -222,22 +273,31 @@ ${property.video ? `
 
 
 
+
 ${property.map ? `
+
 
 <h3>Lokacioni</h3>
 
 
-<a 
+<a
+
 href="${property.map}"
+
 target="_blank"
+
 class="button">
 
+
 📍 Hap në Google Maps
+
 
 </a>
 
 
+
 <br><br>
+
 
 
 <iframe
@@ -252,7 +312,10 @@ style="border:0;border-radius:12px"
 
 loading="lazy">
 
+
 </iframe>
+
+
 
 
 ` : ""}
@@ -261,16 +324,29 @@ loading="lazy">
 
 
 
+
 <br><br>
 
 
-<a 
+
+${property.download ? `
+
+
+<a
+
 href="${property.download}"
+
 class="download-button">
+
 
 📥 Shkarko Fotot / Materialet
 
+
 </a>
+
+
+` : ""}
+
 
 
 
@@ -285,42 +361,93 @@ else{
 
 container.innerHTML = `
 
+
 <h2>Prona nuk u gjet.</h2>
 
+
 <a href="index.html">
+
 Kthehu
+
 </a>
 
+
 `;
+
 
 }
 
 
 
-</script>
-<div id="lightbox" class="lightbox" onclick="closeImage()">
 
-<img id="lightbox-image">
-    }
+
+// LIGHTBOX FUNCTIONS
+
+
+
+window.openImage = function(src){
+
+
+const lightbox = document.getElementById("lightbox");
+
+const image = document.getElementById("lightbox-image");
+
+
+
+image.src = src;
+
+
+lightbox.style.display = "flex";
+
+
+};
+
+
+
+
+
+window.closeImage = function(){
+
+
+document.getElementById("lightbox").style.display = "none";
+
+
+};
+
+
+
 
 
 document.addEventListener("keydown", function(e){
 
-    if(e.key==="Escape"){
 
-        closeImage();
+if(e.key === "Escape"){
 
-    }
-
-});
-
-document.getElementById("lightbox-image").onclick=function(e){
-
-    e.stopPropagation();
+closeImage();
 
 }
 
+
+});
+
+
+
+
+
+document.getElementById("lightbox-image").onclick = function(e){
+
+
+e.stopPropagation();
+
+
+};
+
+
+
 </script>
+
+
+
 
 </body>
 
