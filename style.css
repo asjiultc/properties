@@ -10,15 +10,15 @@
 
 body {
 
-    margin: 0;
+    margin:0;
 
-    padding: 0;
+    padding:0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 
-    background: #f5f5f5;
+    background:#f5f5f5;
 
-    color: #222;
+    color:#222;
 
 }
 
@@ -26,13 +26,13 @@ body {
 
 .header {
 
-    background: #111;
+    background:#111;
 
-    color: white;
+    color:white;
 
-    padding: 30px 20px;
+    padding:30px 20px;
 
-    text-align: center;
+    text-align:center;
 
 }
 
@@ -40,9 +40,9 @@ body {
 
 .header h1 {
 
-    margin: 0;
+    margin:0;
 
-    font-size: 32px;
+    font-size:32px;
 
 }
 
@@ -50,38 +50,41 @@ body {
 
 .header p {
 
-    margin-top: 10px;
+    margin-top:10px;
 
-    opacity: 0.8;
+    opacity:.8;
 
 }
+
 
 
 
 main {
 
-    max-width: 1200px;
+    max-width:1200px;
 
-    margin: auto;
+    margin:auto;
 
-    padding: 30px 20px;
+    padding:30px 20px;
 
 }
 
 
 
+
+
 /* =========================
-   PROPERTY CARDS
+   PROPERTY GRID
 ========================= */
 
 
 .property-grid {
 
-    display: grid;
+    display:grid;
 
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
-    gap: 25px;
+    gap:25px;
 
 }
 
@@ -89,15 +92,15 @@ main {
 
 .property-card {
 
-    background: white;
+    background:white;
 
-    border-radius: 15px;
+    border-radius:15px;
 
-    overflow: hidden;
+    overflow:hidden;
 
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
 
-    transition: 0.3s;
+    transition:.3s;
 
 }
 
@@ -105,7 +108,7 @@ main {
 
 .property-card:hover {
 
-    transform: translateY(-5px);
+    transform:translateY(-5px);
 
 }
 
@@ -113,11 +116,11 @@ main {
 
 .property-image {
 
-    width: 100%;
+    width:100%;
 
-    height: 230px;
+    height:230px;
 
-    object-fit: cover;
+    object-fit:cover;
 
 }
 
@@ -125,7 +128,7 @@ main {
 
 .property-content {
 
-    padding: 20px;
+    padding:20px;
 
 }
 
@@ -133,9 +136,7 @@ main {
 
 .property-content h2 {
 
-    margin-top: 0;
-
-    font-size: 22px;
+    margin-top:0;
 
 }
 
@@ -143,7 +144,7 @@ main {
 
 .location {
 
-    color: #666;
+    color:#666;
 
 }
 
@@ -158,15 +159,15 @@ main {
 
 .status {
 
-    display: inline-block;
+    display:inline-block;
 
-    padding: 7px 14px;
+    padding:7px 14px;
 
-    border-radius: 20px;
+    border-radius:20px;
 
-    font-weight: bold;
+    font-weight:bold;
 
-    margin: 10px 0;
+    margin:10px 0;
 
 }
 
@@ -233,7 +234,6 @@ main {
 .download-button,
 .back-button {
 
-
     display:inline-block;
 
     text-decoration:none;
@@ -265,7 +265,7 @@ main {
 
 
 /* =========================
-   PROPERTY DETAIL
+   DETAIL PAGE
 ========================= */
 
 
@@ -364,7 +364,7 @@ main {
 
 .gallery-image:hover {
 
-    transform:scale(1.02);
+    transform:scale(1.03);
 
 }
 
@@ -393,13 +393,11 @@ main {
 
     background:rgba(0,0,0,.92);
 
+    z-index:9999;
+
     justify-content:center;
 
     align-items:center;
-
-    z-index:9999;
-
-    padding:25px;
 
 }
 
@@ -407,15 +405,110 @@ main {
 
 .lightbox img {
 
-    max-width:95%;
+    max-width:90%;
 
-    max-height:95%;
+    max-height:90%;
 
     border-radius:10px;
 
-    box-shadow:0 0 25px rgba(0,0,0,.6);
+    box-shadow:0 0 30px rgba(0,0,0,.6);
 
 }
+
+
+
+
+
+.lightbox-close {
+
+    position:absolute;
+
+    top:25px;
+
+    right:25px;
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    border:none;
+
+    background:#111;
+
+    color:white;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+.lightbox-prev,
+.lightbox-next {
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    border:none;
+
+    background:#111;
+
+    color:white;
+
+    font-size:35px;
+
+    cursor:pointer;
+
+}
+
+
+
+.lightbox-prev {
+
+    left:25px;
+
+}
+
+
+
+.lightbox-next {
+
+    right:25px;
+
+}
+
+
+
+
+
+#image-counter {
+
+    position:absolute;
+
+    bottom:25px;
+
+    color:white;
+
+    font-size:18px;
+
+}
+
+
 
 
 
@@ -440,17 +533,6 @@ main {
 
 
 
-.download-section {
-
-    text-align:center;
-
-    margin-top:40px;
-
-}
-
-
-
-
 
 /* =========================
    MOBILE
@@ -458,6 +540,7 @@ main {
 
 
 @media(max-width:600px){
+
 
 
 .header h1 {
@@ -479,6 +562,61 @@ main {
 .gallery img {
 
     height:200px;
+
+}
+
+
+
+.lightbox img {
+
+    max-width:95%;
+
+    max-height:80%;
+
+}
+
+
+
+.lightbox-prev,
+.lightbox-next {
+
+    width:40px;
+
+    height:40px;
+
+    font-size:22px;
+
+}
+
+
+
+.lightbox-prev {
+
+    left:10px;
+
+}
+
+
+
+.lightbox-next {
+
+    right:10px;
+
+}
+
+
+
+.lightbox-close {
+
+    top:10px;
+
+    right:10px;
+
+    width:40px;
+
+    height:40px;
+
+    font-size:22px;
 
 }
 
