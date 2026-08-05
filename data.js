@@ -222,7 +222,14 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
         "assets/properties/property-003/02.jpg",
 
-        "assets/properties/property-003/03.jpg"
+        "assets/properties/property-003/03.jpg",
+        "assets/properties/property-003/04.jpg",
+        "assets/properties/property-003/05.jpg",
+        "assets/properties/property-003/06.jpg",
+        "assets/properties/property-003/07.jpg",
+        "assets/properties/property-003/08.jpg",
+        "assets/properties/property-003/09.jpg",
+        "assets/properties/property-003/10.jpg"
 
     ],
 
