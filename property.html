@@ -37,11 +37,36 @@
 
 <!-- LIGHTBOX -->
 
-<div id="lightbox" class="lightbox" onclick="closeImage()">
+<div id="lightbox" class="lightbox">
 
-    <img id="lightbox-image">
+
+<button class="lightbox-close" onclick="closeImage()">
+✕
+</button>
+
+
+<button class="lightbox-prev" onclick="prevImage()">
+❮
+</button>
+
+
+
+<img id="lightbox-image">
+
+
+
+<button class="lightbox-next" onclick="nextImage()">
+❯
+</button>
+
+
+
+<div id="image-counter"></div>
+
 
 </div>
+
+
 
 
 
@@ -50,17 +75,23 @@
 <script src="./data.js"></script>
 
 
+
 <script>
 
 
 const params = new URLSearchParams(window.location.search);
 
+
 const propertyID = params.get("id");
 
 
+
 const property = window.properties.find(
-    item => item.id === propertyID
+
+item => item.id === propertyID
+
 );
+
 
 
 
@@ -68,25 +99,38 @@ const container = document.getElementById("property-detail");
 
 
 
+
+
 if(property){
+
 
 
 container.innerHTML = `
 
 
+
 <div class="detail-header">
 
+
 <h2>
+
 ${property.title}
+
 </h2>
 
 
+
 <span class="status ${property.statusClass}">
+
 ${property.status}
+
 </span>
 
 
+
 </div>
+
+
 
 
 
@@ -95,35 +139,53 @@ ${property.status}
 <div class="info-box">
 
 
+
 <p>
+
 📍 <strong>Lokacioni:</strong><br>
+
 ${property.location}
+
 </p>
 
 
 
+
 <p>
+
 💶 <strong>Çmimi:</strong><br>
+
 ${property.price}
+
 </p>
+
 
 
 
 <p>
+
 📐 <strong>Sipërfaqja:</strong><br>
+
 ${property.area}
+
 </p>
+
+
 
 
 
 ${property.rooms ? `
 
 <p>
+
 🛏 <strong>Dhomat:</strong><br>
+
 ${property.rooms}
+
 </p>
 
 ` : ""}
+
 
 
 
@@ -131,11 +193,16 @@ ${property.rooms}
 ${property.balcony ? `
 
 <p>
+
 🌅 <strong>Balkone:</strong><br>
+
 ${property.balcony}
+
 </p>
 
 ` : ""}
+
+
 
 
 
@@ -143,11 +210,16 @@ ${property.balcony}
 ${property.bathrooms ? `
 
 <p>
+
 🚿 <strong>Banjo:</strong><br>
+
 ${property.bathrooms}
+
 </p>
 
 ` : ""}
+
+
 
 
 
@@ -155,11 +227,16 @@ ${property.bathrooms}
 ${property.floor ? `
 
 <p>
+
 🏢 <strong>Kati:</strong><br>
+
 ${property.floor}
+
 </p>
 
 ` : ""}
+
+
 
 
 
@@ -167,11 +244,15 @@ ${property.floor}
 ${property.elevator ? `
 
 <p>
+
 🛗 <strong>Ashensor:</strong><br>
+
 ${property.elevator}
+
 </p>
 
 ` : ""}
+
 
 
 
@@ -179,22 +260,31 @@ ${property.elevator}
 ${property.parking ? `
 
 <p>
+
 🚗 <strong>Parkim:</strong><br>
+
 ${property.parking}
+
 </p>
 
 ` : ""}
+
+
 
 
 
 ${property.availableDate ? `
 
 <p>
+
 📅 <strong>Disponueshme:</strong><br>
+
 ${property.availableDate}
+
 </p>
 
 ` : ""}
+
 
 
 
@@ -204,7 +294,14 @@ ${property.availableDate}
 
 
 
-<h3>Përshkrimi</h3>
+
+
+<h3>
+
+Përshkrimi
+
+</h3>
+
 
 
 <p class="description">
@@ -218,13 +315,22 @@ ${property.description}
 
 
 
-<h3>Galeria</h3>
+
+<h3>
+
+Galeria
+
+</h3>
+
+
 
 
 <div class="gallery">
 
 
+
 ${property.images.map(image => `
+
 
 
 <img
@@ -238,10 +344,13 @@ class="gallery-image"
 onclick="openImage('${image}')"
 
 
+
 >
 
 
+
 `).join("")}
+
 
 
 </div>
@@ -251,19 +360,30 @@ onclick="openImage('${image}')"
 
 
 
+
 ${property.video ? `
 
 
-<h3>Video</h3>
+
+<h3>
+
+Video
+
+</h3>
+
+
 
 
 <video class="video" controls>
 
 
+
 <source src="${property.video}" type="video/mp4">
 
 
+
 </video>
+
 
 
 
@@ -274,10 +394,18 @@ ${property.video ? `
 
 
 
+
 ${property.map ? `
 
 
-<h3>Lokacioni</h3>
+
+<h3>
+
+Lokacioni
+
+</h3>
+
+
 
 
 <a
@@ -296,24 +424,35 @@ class="button">
 
 
 
+
+
 <br><br>
+
+
 
 
 
 <iframe
 
+
 src="${property.map}&output=embed"
+
 
 width="100%"
 
+
 height="350"
 
+
 style="border:0;border-radius:12px"
+
 
 loading="lazy">
 
 
+
 </iframe>
+
 
 
 
@@ -325,11 +464,17 @@ loading="lazy">
 
 
 
+
 <br><br>
 
 
 
+
+
+
+
 ${property.download ? `
+
 
 
 <a
@@ -345,12 +490,18 @@ class="download-button">
 </a>
 
 
+
+
 ` : ""}
 
 
 
 
+
+
+
 `;
+
 
 
 
@@ -362,7 +513,12 @@ else{
 container.innerHTML = `
 
 
-<h2>Prona nuk u gjet.</h2>
+<h2>
+
+Prona nuk u gjet.
+
+</h2>
+
 
 
 <a href="index.html">
@@ -374,33 +530,86 @@ Kthehu
 
 `;
 
-
 }
 
 
 
 
 
-// LIGHTBOX FUNCTIONS
+
+
+
+// =======================
+// LIGHTBOX
+// =======================
+
+
+
+let currentImages = property.images;
+
+
+let currentIndex = 0;
+
+
+
 
 
 
 window.openImage = function(src){
 
 
+
+currentIndex = currentImages.indexOf(src);
+
+
+
+showImage();
+
+
+
+};
+
+
+
+
+
+
+
+function showImage(){
+
+
+
 const lightbox = document.getElementById("lightbox");
+
 
 const image = document.getElementById("lightbox-image");
 
 
+const counter = document.getElementById("image-counter");
 
-image.src = src;
+
+
+
+
+image.src = currentImages[currentIndex];
+
+
+
+counter.innerHTML = 
+
+(currentIndex + 1) + " / " + currentImages.length;
+
+
 
 
 lightbox.style.display = "flex";
 
 
-};
+
+}
+
+
+
 
 
 
@@ -409,23 +618,113 @@ lightbox.style.display = "flex";
 window.closeImage = function(){
 
 
-document.getElementById("lightbox").style.display = "none";
 
-
-};
-
+document.getElementById("lightbox").style.display="none";
 
 
 
+}
 
-document.addEventListener("keydown", function(e){
 
 
-if(e.key === "Escape"){
+
+
+
+
+window.nextImage=function(){
+
+
+
+currentIndex++;
+
+
+
+if(currentIndex >= currentImages.length){
+
+
+currentIndex=0;
+
+
+}
+
+
+
+showImage();
+
+
+
+}
+
+
+
+
+
+
+
+
+window.prevImage=function(){
+
+
+
+currentIndex--;
+
+
+
+if(currentIndex < 0){
+
+
+currentIndex=currentImages.length-1;
+
+
+}
+
+
+
+showImage();
+
+
+
+}
+
+
+
+
+
+
+
+
+document.addEventListener("keydown",function(e){
+
+
+
+if(e.key==="Escape"){
+
 
 closeImage();
 
+
 }
+
+
+
+if(e.key==="ArrowRight"){
+
+
+nextImage();
+
+
+}
+
+
+
+if(e.key==="ArrowLeft"){
+
+
+prevImage();
+
+
+}
+
 
 
 });
@@ -434,18 +733,9 @@ closeImage();
 
 
 
-document.getElementById("lightbox-image").onclick = function(e){
-
-
-e.stopPropagation();
-
-
-};
-
 
 
 </script>
-
 
 
 
