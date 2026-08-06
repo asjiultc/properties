@@ -220,7 +220,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
 
     map:
-    "https://www.google.com/maps?q=41.3319868,19.8366679",
+    "https://www.google.com/maps?q=41.3323407,19.8365772",
 
 
     images:[
