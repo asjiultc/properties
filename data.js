@@ -10,6 +10,8 @@ window.properties = [
     status:"🟢 Disponibël nga 15/08/2026",
 
     statusClass:"available",
+    //status:"🔴 E zënë",
+    //statusClass:"occupied",
 
     price:"55,000Leke/Muaj",
 
@@ -94,6 +96,9 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     //status:"🟡 Rezervuar",
 
     //statusClass:"reserved",
+
+    //status:"🔴 E zënë",
+    //statusClass:"occupied",
 
     status:"🟢 Disponibël",
 
@@ -182,6 +187,8 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     status:"🟢 Disponibël nga 15/08/2026",
 
     statusClass:"available",
+    //status:"🔴 E zënë",
+    //statusClass:"occupied",
 
     price:"60,000Leke/Muaj",
 
