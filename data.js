@@ -7,7 +7,7 @@ window.properties = [
 
     location:"Ish stacioni fundit i Tiranes se Re, Tirane",
 
-    status:"🟢 Disponibël nga 15/08/2026",
+    status:"🟢 Disponibël",
 
     statusClass:"available",
     //status:"🔴 E zënë",
@@ -33,6 +33,7 @@ window.properties = [
     `
     Jepet me Qera 2+1+2 banjo, + Ballkon i vogel ,Apartament kati 7 Banimi, pallat me ashensor(Shenim: 1 Kat ngjitet me kembe), <br>
     Aparatamenti i kompletuar me te gjitha orendite, Kondicioner ne cdo dhome.<br>
+    Grila dhe Rjeta per insekte<br>
 
 Preferohen Familjare, kapaciteti maksimal 4 Persona.<br> 
 Telefonata vetem ne nr e telefonit(jo whatsapp), Mesazhe ne SMS ose Whatsapp<br> 
@@ -138,7 +139,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
 
     map:
-    "https://www.google.com/maps?q=41.334381,19.772975",
+    "https://www.google.com/maps?q=41.3336247,19.77388",
 
 
     images:[
@@ -184,7 +185,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     //status:"🟠 Lirohet së shpejti",
 
     //statusClass:"soon",
-    status:"🟢 Disponibël nga 15/08/2026",
+    status:"🟢 Disponibël",
 
     statusClass:"available",
     //status:"🔴 E zënë",
@@ -212,6 +213,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.<br> 
     Kend me hapje dhe kontinetore per magazinim. <br> Tavoline buke me 4 karrige e hapshme deri ne 2M.<br> 
     Kuzhine e kompletuar me cdo gje (Lavastovilje, Mikrovale etj..)<br> 
+    Kondicioner ne cdo dhome,Grila dhe Rjeta per insekte<br>
     krevati dhomes gjumit me kontinetor per magazinim extra, Krevat per femije 90x120 me kontinetor(opsional)<br> 
     Pallati ka 2 kate parkim nen toke, gjendjet parkim me abomin mujor nese keni automjet<br> <br> 
 Preferohen Familjare, kapaciteti maksimal 2 Persona(ose cift me 1 femije te vogel)<br> 
