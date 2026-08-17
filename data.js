@@ -7,14 +7,14 @@ window.properties = [
 
     location:"Ish stacioni fundit i Tiranes se Re, Tirane",
 
-    status:"🟢 Disponibël",
+    //status:"🟢 Disponibël",
 
-    statusClass:"available",
+    //statusClass:"available",
     //status:"🟡 Rezervuar",
 
    //statusClass:"reserved",
-    //status:"🔴 E zënë",
-    //statusClass:"occupied",
+    status:"🔴 E zënë",
+    statusClass:"occupied",
 
     price:"55,000Leke/Muaj",
 
