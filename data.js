@@ -7,12 +7,12 @@ window.properties = [
 
     location:"Ish stacioni fundit i Tiranes se Re, Tirane",
 
-    //status:"🟢 Disponibël",
+    status:"🟢 Disponibël",
 
-    //statusClass:"available",
-    status:"🟡 Rezervuar",
+    statusClass:"available",
+    //status:"🟡 Rezervuar",
 
-   statusClass:"reserved",
+   //statusClass:"reserved",
     //status:"🔴 E zënë",
     //statusClass:"occupied",
 
