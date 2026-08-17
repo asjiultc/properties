@@ -101,12 +101,12 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     //statusClass:"reserved",
 
-    //status:"🔴 E zënë",
-    //statusClass:"occupied",
+    status:"🔴 E zënë",
+   statusClass:"occupied",
 
-    status:"🟢 Disponibël",
+    //status:"🟢 Disponibël",
 
-    statusClass:"available",
+    //statusClass:"available",
 
     price:"40,000Leke/Muaj",
 
