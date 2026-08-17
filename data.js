@@ -13,6 +13,7 @@ window.properties = [
     //status:"🟡 Rezervuar",
 
    //statusClass:"reserved",
+    
     status:"🔴 E zënë",
     statusClass:"occupied",
 
