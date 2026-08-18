@@ -9,13 +9,13 @@ window.properties = [
 
     //status:"🟢 Disponibël",
 
-    //statusClass:"available",
-    //status:"🟡 Rezervuar",
+    statusClass:"available",
+    status:"🟡 Rezervuar",
 
    //statusClass:"reserved",
     
-    status:"🔴 E zënë",
-    statusClass:"occupied",
+    //status:"🔴 E zënë",
+    //statusClass:"occupied",
 
     price:"55,000Leke/Muaj",
 
