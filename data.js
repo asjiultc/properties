@@ -194,7 +194,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     //status:"🔴 E zënë",
     //statusClass:"occupied",
 
-    price:"60,000Leke/Muaj",
+    price:"55,000Leke/Muaj",
 
     area:"62m²",
 
@@ -213,7 +213,7 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     description:
     `
     Jepet me Qera 1+1+ Ballkon ,Apartament kati 6 Banimi, pallat me 2 ashensor i ri, afer afer bulevardit (~20M) por ne rresht te dyte ofron goxha qetesi, akses dhe dalje te shumta praktike. <br> 
-    Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42", Kanalet Digitalb, Interent WIFI&Kabell 300MBs.<br> 
+    Aparatamenti i kompletuar me te gjitha orendite i shtruar me parket, Kondicioner ne cdo dhome, TV 42".<br> 
     Kend me hapje dhe kontinetore per magazinim. <br> Tavoline buke me 4 karrige e hapshme deri ne 2M.<br> 
     Kuzhine e kompletuar me cdo gje (Lavastovilje, Mikrovale etj..)<br> 
     Kondicioner ne cdo dhome,Grila dhe Rjeta per insekte<br>
