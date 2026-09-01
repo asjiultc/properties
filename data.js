@@ -188,9 +188,13 @@ Kafshet shtepiake nuk lejohen(qen, mace)
     //status:"🟠 Lirohet së shpejti",
 
     //statusClass:"soon",
-    status:"🟢 Disponibël",
 
-    statusClass:"available",
+    status:"🟡 Rezervuar",
+
+   statusClass:"reserved",
+    //status:"🟢 Disponibël",
+
+    //statusClass:"available",
     //status:"🔴 E zënë",
     //statusClass:"occupied",
 
