@@ -189,14 +189,14 @@ Kafshet shtepiake nuk lejohen(qen, mace)
 
     //statusClass:"soon",
 
-    status:"🟡 Rezervuar",
+    //status:"🟡 Rezervuar",
 
-   statusClass:"reserved",
+   //statusClass:"reserved",
     //status:"🟢 Disponibël",
 
     //statusClass:"available",
-    //status:"🔴 E zënë",
-    //statusClass:"occupied",
+   status:"🔴 E zënë",
+    statusClass:"occupied",
 
     price:"55,000Leke/Muaj",
 
